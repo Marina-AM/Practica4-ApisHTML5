@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+@import url("https://fonts.google.com/icons?icon.style=Two+tone");
+
+body {
+  background-color: rgb(59, 55, 62);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(220, 172, 225);
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 16px;
+  margin-top: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.texto {
+  line-height: 48px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+input[type="file"] {
+  background-color: rgb(151, 116, 228);
+  border-radius: 3px;
+}
+
+input[name="file"] {
+  border: 1px solid rgb(151, 116, 228);
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.thumb {
+  height: 50%;
+  margin-top: 32px;
+  visibility: hidden;
+}
+
+.divBoton {
+  background-color: rgba(0, 0, 0, 0.100);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.boton {
+  cursor: pointer;
+  margin-right: 24px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 32px;
+  background: rgb(151, 116, 228);
+  color: rgb(0, 0, 0);
+  transition: all .3s ease-in;
+}
+
+.boton:hover {
+  background: rgb(116, 90, 174);
+  color: rgb(0, 0, 0);
+}
+
+.boton:focus {
+  background: rgb(196, 169, 255);
+  color: rgb(0, 0, 0);
+}
+
+.cargandoMensaje {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(151, 116, 228);
+  border: 2px solid rgb(112, 55, 108);
+  padding: 32px;
+}
